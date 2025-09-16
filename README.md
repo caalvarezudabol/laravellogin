@@ -2,12 +2,12 @@
 git clone https://github.com/tuusuario/tu-proyecto.git nombre-del-proyecto
 
 cd nombre-del-proyecto
+**1.1   descomprimir el archivo .rar y colocarlo a la raiz**
 
-# 2. Instala las dependencias de Laravel
-composer install
-
-# 3. Copia el archivo de entorno y configura
+# 2. Copia el archivo de entorno y configura
 cp .env.example .env
+# 3. Instala las dependencias de Laravel
+composer install
 
 # 4. Genera la clave de aplicación
 php artisan key:generate
